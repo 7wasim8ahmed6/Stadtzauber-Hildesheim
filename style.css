@@ -419,6 +419,29 @@ body.nav-open .nav-toggle span:nth-child(3) { transform: translateY(-6.5px) rota
   flex-wrap: wrap;
 }
 
+.hero-hours {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-3);
+  margin-top: var(--space-8);
+  font-family: var(--font-body);
+  font-size: var(--text-sm);
+  letter-spacing: 0.04em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.hero-hours svg {
+  flex-shrink: 0;
+  color: var(--color-gold);
+  opacity: 0.8;
+}
+
+.hero-hours__sep {
+  color: var(--color-gold);
+  opacity: 0.5;
+}
+
 .hero-scroll-cue {
   position: absolute;
   bottom: var(--space-8);

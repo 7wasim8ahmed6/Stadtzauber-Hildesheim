@@ -239,7 +239,7 @@
       if (mins < openMins) {
         const openH = rule[0].toString().padStart(2, '0');
         const openM = rule[1].toString().padStart(2, '0');
-        label.textContent = 'Heute geschlossen · Öffnet um ' + openH + ':' + openM + ' Uhr';
+        label.textContent = 'Noch geschlossen · Öffnet heute um ' + openH + ':' + openM + ' Uhr';
       } else {
         // Determine next opening
         const nextIsWeekend = day === 5 || day === 6; // Fri eve→Sat, Sat eve→Sun
